@@ -9,6 +9,9 @@ namespace KnockKnockReadify
     {
         public static long Fibonacci(long number)
         {
+            if (number == 0)
+                return 0;
+
             if (number > 92)
                 throw new ArgumentOutOfRangeException("n", "Fib(>92) will cause a 64-bit integer overflow.");
 

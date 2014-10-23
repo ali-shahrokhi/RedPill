@@ -21,5 +21,12 @@ namespace KnockKnockUnitTest
             Assert.AreEqual(5, result);
             Assert.AreNotEqual(-5, result);
         }
+
+        [TestMethod]
+        public void FibonnaciAccuracyTest2()
+        {
+            var result = Helper.Fibonacci(0);
+            Assert.AreEqual(0, result);
+        }
     }
 }
