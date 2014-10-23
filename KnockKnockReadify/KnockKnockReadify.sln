@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnockReadify", "KnockKnockReadify\KnockKnockReadify.csproj", "{8DB21A77-1E47-472D-9A64-294DC8B8AA49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnockUnitTest", "KnockKnockUnitTest\KnockKnockUnitTest.csproj", "{F86FBCC4-6A43-4F89-BEE3-A29CA71DAD30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8DB21A77-1E47-472D-9A64-294DC8B8AA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB21A77-1E47-472D-9A64-294DC8B8AA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB21A77-1E47-472D-9A64-294DC8B8AA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86FBCC4-6A43-4F89-BEE3-A29CA71DAD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86FBCC4-6A43-4F89-BEE3-A29CA71DAD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86FBCC4-6A43-4F89-BEE3-A29CA71DAD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86FBCC4-6A43-4F89-BEE3-A29CA71DAD30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

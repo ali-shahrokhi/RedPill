@@ -22,9 +22,6 @@ namespace KnockKnockReadify
 
         public long FibonacciNumber(long n)
         {
-            if (n > 92)
-                throw new ArgumentOutOfRangeException("n", "Fib(>92) will cause a 64-bit integer overflow.");
-
             return Helper.Fibonacci(n);
         }
 
@@ -35,9 +32,6 @@ namespace KnockKnockReadify
 
         public string ReverseWords(string s)
         {
-            if (s == null)
-                throw new ArgumentNullException("s", "Value cannot be null");
-
             return Helper.ReverseWords(s);
         }
     }

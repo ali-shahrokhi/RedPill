@@ -9,6 +9,9 @@ namespace KnockKnockReadify
     {
         public static long Fibonacci(long number)
         {
+            if (number > 92)
+                throw new ArgumentOutOfRangeException("n", "Fib(>92) will cause a 64-bit integer overflow.");
+
             long[] Fib = new long[number + 1];
             Fib[0] = 0;
             Fib[1] = 1;
@@ -21,6 +24,9 @@ namespace KnockKnockReadify
 
         public static string ReverseWords(string str)
         {
+            if (str == null)
+                throw new ArgumentNullException("s", "Value cannot be null");
+
             var reversedWords = string.Join(" ",
               str.Split(' ')
                  .Select(x => new String(x.Reverse().ToArray()))
